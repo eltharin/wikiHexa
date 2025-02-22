@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3aa6efbb754ccfee8f386f7b0ee73bb4",
+    "content-hash": "354c2a8017fc62d047ba8c165506e3cf",
     "packages": [
         {
             "name": "composer/semver",
@@ -1378,6 +1378,258 @@
             "time": "2023-10-06T06:47:41+00:00"
         },
         {
+            "name": "eltharin/ajaxresponser",
+            "version": "V1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eltharin/AjaxResponser.git",
+                "reference": "9b2fbb2c4ca4a865713df4cc39b0e7c8a76b8ea2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eltharin/AjaxResponser/zipball/9b2fbb2c4ca4a865713df4cc39b0e7c8a76b8ea2",
+                "reference": "9b2fbb2c4ca4a865713df4cc39b0e7c8a76b8ea2",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\AjaxResponserBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "AjaxResponser Bundle for symfony",
+            "keywords": [
+                "JS",
+                "bundle",
+                "css",
+                "symfony",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/eltharin/AjaxResponser/issues",
+                "source": "https://github.com/eltharin/AjaxResponser/tree/V1.5.1"
+            },
+            "time": "2024-03-18T10:22:22+00:00"
+        },
+        {
+            "name": "eltharin/automaticquerybuilder",
+            "version": "V0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.eltharin.fr/git/eltharin/automaticquerybuilder.git",
+                "reference": "7dd5d1162d5dab5c2e7970c8c65258bb1a73addb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.eltharin.fr/repos/eltharin/automaticquerybuilder/zipball/7dd5d1162d5dab5c2e7970c8c65258bb1a73addb",
+                "reference": "7dd5d1162d5dab5c2e7970c8c65258bb1a73addb"
+            },
+            "require": {
+                "eltharin/twigfilesgetter": "*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\AutomaticQueryBuilderBundle\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "automaticquerybuilder Bundle for symfony",
+            "keywords": [
+                "Bundle",
+                "PHP",
+                "Symfony",
+                "Web"
+            ],
+            "time": "2024-08-20T14:33:45+00:00"
+        },
+        {
+            "name": "eltharin/commonassets",
+            "version": "V4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.eltharin.fr/git/eltharin/commonassets.git",
+                "reference": "eb36af407b8d2cd07e64602c049438eb0dfb1b19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.eltharin.fr/repos/eltharin/commonassets/zipball/eb36af407b8d2cd07e64602c049438eb0dfb1b19",
+                "reference": "eb36af407b8d2cd07e64602c049438eb0dfb1b19"
+            },
+            "require": {
+                "eltharin/twigfilesgetter": "*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\CommonAssetsBundle\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "commonassets Bundle for symfony",
+            "keywords": [
+                "Bundle",
+                "CSS",
+                "JS",
+                "Symfony",
+                "Web"
+            ],
+            "time": "2024-08-23T15:12:19+00:00"
+        },
+        {
+            "name": "eltharin/errorlogger",
+            "version": "V0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.eltharin.fr/git/eltharin/errorlogger.git",
+                "reference": "86a89a55b25a29a73610901e53cec05b6fcdc275"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.eltharin.fr/repos/eltharin/errorlogger/zipball/86a89a55b25a29a73610901e53cec05b6fcdc275",
+                "reference": "86a89a55b25a29a73610901e53cec05b6fcdc275"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\ErrorLoggerBundle\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "ErrorLogger Bundle for symfony",
+            "keywords": [
+                "Bundle",
+                "CSS",
+                "JS",
+                "Symfony",
+                "Web"
+            ],
+            "time": "2024-08-23T15:12:56+00:00"
+        },
+        {
+            "name": "eltharin/invitations",
+            "version": "V1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eltharin/Invitations.git",
+                "reference": "deef9c3665df2610e296fd69ef7dd2c0be19c72f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eltharin/Invitations/zipball/deef9c3665df2610e296fd69ef7dd2c0be19c72f",
+                "reference": "deef9c3665df2610e296fd69ef7dd2c0be19c72f",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\InvitationsBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "invitations Bundle for symfony",
+            "keywords": [
+                "JS",
+                "bundle",
+                "css",
+                "symfony",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/eltharin/Invitations/issues",
+                "source": "https://github.com/eltharin/Invitations/tree/V1.4.2"
+            },
+            "time": "2024-05-12T08:38:40+00:00"
+        },
+        {
+            "name": "eltharin/juniorjs",
+            "version": "V1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eltharin/juniorjs.git",
+                "reference": "8d0a2007d65378ea158e8e1b8de9f26079fb0443"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eltharin/juniorjs/zipball/8d0a2007d65378ea158e8e1b8de9f26079fb0443",
+                "reference": "8d0a2007d65378ea158e8e1b8de9f26079fb0443",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\JuniorJSBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "JuniorJS Bundle for symfony",
+            "keywords": [
+                "JS",
+                "bundle",
+                "symfony",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/eltharin/juniorjs/issues",
+                "source": "https://github.com/eltharin/juniorjs/tree/V1.2.3"
+            },
+            "time": "2024-06-01T12:40:27+00:00"
+        },
+        {
+            "name": "eltharin/twigfilesgetter",
+            "version": "V1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eltharin/TwigFilesGetter.git",
+                "reference": "78cb35763b9385c2546626b006cd595346738cee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eltharin/TwigFilesGetter/zipball/78cb35763b9385c2546626b006cd595346738cee",
+                "reference": "78cb35763b9385c2546626b006cd595346738cee",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\TwigFilesGetterBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "twigfilesgetter Bundle for symfony",
+            "keywords": [
+                "JS",
+                "bundle",
+                "css",
+                "symfony",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/eltharin/TwigFilesGetter/issues",
+                "source": "https://github.com/eltharin/TwigFilesGetter/tree/V1.1.3"
+            },
+            "time": "2024-05-02T13:50:51+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "3.7.0",
             "source": {
@@ -2005,6 +2257,32 @@
                 "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
             "time": "2024-08-21T13:31:24+00:00"
+        },
+        {
+            "name": "symfony/apache-pack",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/apache-pack.git",
+                "reference": "3aa5818d73ad2551281fc58a75afd9ca82622e6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/apache-pack/zipball/3aa5818d73ad2551281fc58a75afd9ca82622e6c",
+                "reference": "3aa5818d73ad2551281fc58a75afd9ca82622e6c",
+                "shasum": ""
+            },
+            "type": "symfony-pack",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A pack for Apache support in Symfony",
+            "support": {
+                "issues": "https://github.com/symfony/apache-pack/issues",
+                "source": "https://github.com/symfony/apache-pack/tree/master"
+            },
+            "time": "2017-12-12T01:46:35+00:00"
         },
         {
             "name": "symfony/asset",
@@ -7557,6 +7835,38 @@
     ],
     "packages-dev": [
         {
+            "name": "eltharin/maker",
+            "version": "V0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.eltharin.fr/git/eltharin/maker.git",
+                "reference": "1741b61ae207efe524c8f21b410ca02b9b38ce4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.eltharin.fr/repos/eltharin/maker/zipball/1741b61ae207efe524c8f21b410ca02b9b38ce4f",
+                "reference": "1741b61ae207efe524c8f21b410ca02b9b38ce4f"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Eltharin\\MakerBundle\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "maker Bundle for symfony",
+            "keywords": [
+                "Bundle",
+                "CSS",
+                "JS",
+                "Symfony",
+                "Web"
+            ],
+            "time": "2024-05-31T13:23:35+00:00"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.9.0",
             "source": {
@@ -8280,6 +8590,51 @@
                 }
             ],
             "time": "2024-07-10T11:45:39+00:00"
+        },
+        {
+            "name": "qossmic/deptrac",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qossmic/deptrac.git",
+                "reference": "f646695c1468051138e1347d89590f9084fa6256"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qossmic/deptrac/zipball/f646695c1468051138e1347d89590f9084fa6256",
+                "reference": "f646695c1468051138e1347d89590f9084fa6256",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.1"
+            },
+            "suggest": {
+                "ext-dom": "For using the JUnit output formatter"
+            },
+            "bin": [
+                "bin/deptrac",
+                "deptrac.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Qossmic\\Deptrac\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Deptrac is a static code analysis tool that helps to enforce rules for dependencies between software layers.",
+            "support": {
+                "issues": "https://github.com/qossmic/deptrac/issues",
+                "source": "https://github.com/qossmic/deptrac/tree/2.0.1"
+            },
+            "time": "2024-06-17T10:43:11+00:00"
         },
         {
             "name": "sebastian/cli-parser",

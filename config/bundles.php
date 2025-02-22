@@ -13,4 +13,12 @@ return [
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
+    Eltharin\AjaxResponserBundle\EltharinAjaxResponserBundle::class => ['all' => true],
+    Eltharin\TwigFilesGetterBundle\EltharinTwigFilesGetterBundle::class => ['all' => true],
+    Eltharin\AutomaticQueryBuilderBundle\EltharinAutomaticQueryBuilderBundle::class => ['all' => true],
+    Eltharin\CommonAssetsBundle\EltharinCommonAssetsBundle::class => ['all' => true],
+    Eltharin\ErrorLoggerBundle\EltharinErrorLoggerBundle::class => ['all' => true],
+    Eltharin\InvitationsBundle\EltharinInvitationsBundle::class => ['all' => true],
+    Eltharin\JuniorJSBundle\EltharinJuniorJSBundle::class => ['all' => true],
+    Eltharin\MakerBundle\EltharinMakerBundle::class => ['dev' => true, 'test' => true],
 ];
